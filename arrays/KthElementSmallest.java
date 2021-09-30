@@ -10,8 +10,7 @@ public class KthElementSmallest {
 
 	// Function to return k'th smallest
 	// element in a given array
-	public static int kthSmallest(int[] arr,
-								int k)
+	public static int kthSmallest(int[] arr,int k)
 	{
 		// Sort the given array
 		Arrays.sort(arr);
